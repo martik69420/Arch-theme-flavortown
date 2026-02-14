@@ -41,3 +41,10 @@
     background-color: #002848;
 }
 
+.sidebar_user-avatar {
+  background-color: #336B91;
+}
+
+.sidebar_user-avatar-hat-bg {
+  content: url("chrome-extension://_MSG_@@extension_id_/hat-flavortown.png") !important;
+}
