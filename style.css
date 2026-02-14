@@ -1,0 +1,43 @@
+.sidebar__blob {
+  background-color: #002741 !important;
+  border: 2px solid #334782 !important;
+  border-radius: 2rem !important;
+  transition: background 0.3s, border-color 0.3s, width 0.3s;
+}
+
+.sidebar__blob:hover {
+  background-color: #002848 !important;
+  border-color: #ffffff !important;
+}
+
+.sidebar__nav-link {
+  color: #ffffff !important;
+  background-color: transparent !important;
+}
+
+.sidebar__nav-link:hover {
+  color: #d4d4d4 !important;
+}
+
+.sidebar__nav-item {
+  width: auto !important;
+  transition: width 0.3s;
+}
+
+.sidebar__user,
+.sidebar__user-card {
+  background-color: #002741 !important;
+  border-radius: 1rem !important;
+  border: 2px solid #334782 !important;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.sidebar__user-card:hover {
+  background-color: #002848 !important;
+  border-color: #ffffff !important;
+}
+
+.sidebar__user-name {
+    background-color: #002848;
+}
+

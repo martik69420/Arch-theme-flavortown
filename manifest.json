@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Flavortown Arch Theme",
+  "version": "1.0",
+  "description": "Makes Flavortown look like Arch Linux",
+  "content_scripts": [
+    {
+      "matches": ["https://flavortown.hackclub.com/*"],
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+}
