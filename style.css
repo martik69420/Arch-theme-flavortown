@@ -1,3 +1,7 @@
+.signed-in {
+    background-color: #820022 !important;
+}
+
 .sidebar__blob {
   background-color: #002741 !important;
   border: 2px solid #334782 !important;
@@ -38,13 +42,30 @@
 }
 
 .sidebar__user-name {
-    background-color: #002848;
+  background-color: #336b91 !important;
+  color: #ffffff !important;
 }
 
-.sidebar_user-avatar {
-  background-color: #336B91;
+.sidebar__user-avatar {
+  background-color: #336b91 !important;
 }
 
-.sidebar_user-avatar-hat-bg {
-  content: url("chrome-extension://_MSG_@@extension_id_/hat-flavortown.png") !important;
+.sidebar__user-avatar-hat-bg {
+  content: url("chrome-extension://__MSG_@@extension_id__/hat-flavortown.png") !important;
+}
+
+.ui-heading__surface {
+    background-color: #002741 !important;
+}
+
+.kitchen-setup::before,
+.kitchen-stats::before,
+.kitchen-help::before,
+.kitchen-recently-added,
+.kitchen-comic::before {
+    background-color: #ffffff !important;
+}
+
+.kitchen-comic {
+    background-color: #ffffff !important;    
 }
